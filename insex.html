@@ -83,10 +83,75 @@
     />
     <meta name="theme-color" content="#ffffff" />
     <!-- reset css -->
-    <link rel="stylesheet" href="./assets/reset.css">
-    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Sora:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <h1>hello</h1>
+  <body style="height: 5000px">
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <img src="./assets/img/Logo.svg" alt="Lucy" class="logo" />
+
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#!" class="nav__link">Home</a>
+            </li>
+            <li class="nav__item">
+              <a href="#!" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#!" class="nav__link">Services & Rates</a>
+            </li>
+            <li class="nav__item">
+              <a href="#!" class="nav__link">Reviewa</a>
+            </li>
+            <li class="nav__item">
+              <a href="#!" class="nav__link">Contacts us</a>
+            </li>
+          </ul>
+
+          <div class="header-btn">
+            <a href="#!" class="header__signIn">Sign in</a>
+            <a href="#!" class="btn header__signUp">Sign up</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <!-- hero -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero-img">
+              <figure class="hero__thump">
+                <img src="./assets/img/cat1.png" alt="" class="hero__img" />
+              </figure>
+              <figure class="hero__thump-small">
+                <img src="./assets/img/dog1.png" alt="" class="hero__img" />
+              </figure>
+              <section class="hero__post">
+                <article class="hero-post-item">
+                  <img src="./assets/img/dog2.png" alt="" class="hero-post-item__thumb">
+                </article>
+                <div class="hero-post-item__info">
+                  <p class="hero-post-item__title">Pet Health</p>
+                  <div class="hero-post-item__skeletion"></div>
+                  <div class="hero-post-item__skeletion"></div>
+                </div>
+              </section>
+            </div>
+            <div class="hero-info"></div>
+          </div>
+        </div>
+      </section>
+    </main>
   </body>
 </html>

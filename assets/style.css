@@ -1,0 +1,140 @@
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-size: 1.6rem;
+  background: #e5e5e5;
+  font-family: "Poppins", sans-serif;
+}
+/* 
+font-family: 'Poppins', sans-serif;
+font-family: 'Sora', sans-serif; 
+*/
+/* common */
+.container {
+  width: 1140px;
+  max-width: calc(100% - 48px);
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+.btn {
+  --height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 130px;
+  height: var(--height);
+  border: 1px solid #000958;
+  border-radius: 99px;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: var(--height);
+  text-align: center;
+  color: #000958;
+}
+.header {
+  padding: 26px 0;
+  background-color: antiquewhite;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__link {
+  padding: 5px 18px;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: #5e6085;
+}
+
+.nav__link:hover {
+  text-shadow: 1px 0 0 currentColor;
+  color: #000958;
+}
+
+.header-btn {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+}
+
+.header__signIn {
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1;
+  color: #5e6085;
+}
+
+.header__signUp {
+  --height: 50px;
+  min-width: 117px;
+  font-size: 1.4rem;
+}
+
+/* hero */
+
+.hero {
+  background-color: #5e6085;
+  padding: 74px 0;
+}
+.hero__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-img {
+  /* flex: 1; */
+  display: flex;
+
+  position: relative;
+}
+.hero__thump {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 388px;
+  height: 488px;
+  background: #fe997b;
+  border-radius: 16px;
+  
+}
+
+.hero__img {
+    max-width: 100%;
+    object-fit: cover;
+}
+.hero__thump-small {
+    /* position: absolute;
+    bottom: -58px;
+    right: 23px; */
+    align-self: flex-end;
+    margin: 0 0 -58px -23px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 186px;
+    height: 244px;
+    background: #FAA7AD;
+    border-radius: 16px;
+    border: 2px solid #fff;
+    
+  }
+
+.hero-info {
+  flex: 1;
+}
